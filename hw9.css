@@ -1,0 +1,366 @@
+﻿//////targil 1
+
+//let x = +prompt("pliease enter first number")
+//let y = +prompt("please enter second number")
+
+//const randomNum = (x, y) => {
+//    if (x > y) {
+//        return Math.floor(Math.random() * (x - y)) + y
+//    } else {
+//        return Math.floor(Math.random() * (y - x)) + x
+
+//    }
+//}
+
+//document.write(randomNum (x,y))
+
+
+//////targil 2
+
+//let x = +prompt("pliease enter first number")
+//let y = +prompt("please enter second number")
+
+//const randomNum = (min, max) => {
+//    return Math.floor(Math.random() * (max - min)) + min
+//}
+
+//for (i = 0; i < 100; i++) {
+//    let num = randomNum(x, y)
+//    document.write(num + "  *  ")
+//}
+
+
+
+
+//////************************************************************************************
+//////funciot-targil 1
+
+
+////const funcArr = (x) => {
+////    let sumArr = 0
+////    let avrgArr = 0
+
+////    for (let i = 0; i < x.length; i++) {
+
+////        sumArr = sumArr + x[i]
+////    }
+////    return avrgArr = Math.floor(sumArr / x.length)
+////}
+
+
+////let arr = []
+////for (let i = 0; i <= 3; i++) {
+
+////    switch (true) {
+
+////        case i == 1:
+////            alert("Please enter array 1: ")
+////            arr = [+prompt(), +prompt(), +prompt()]
+////            document.write("Numbers in array 1 is: " + arr + "<br>")
+////            document.write("The average of array 1 is: " + funcArr(arr) + "<br>" + "<br>")
+
+////            break
+
+////        case i == 2:
+////            alert("Please enter array 2: ")
+////            arr = [+prompt(), +prompt(), +prompt()]
+////            document.write("Numbers in array 2 is: " + arr + "<br>")
+////            document.write("The average of array 2 is: " + funcArr(arr) + "<br>" + "<br>")
+////            break
+
+////        case i == 3:
+////            alert("Please enter array 3: ")
+////            arr = [+prompt(), +prompt(), +prompt()]
+////            document.write("Numbers in array 3 is: " + arr + "<br>")
+////            document.write("The average of array 3 is: " + funcArr(arr) + "<br>" + "<br>")
+////            break
+////        default:
+////alert("Please enter 3 numbers")
+
+////    }
+////}
+
+////************************************************************************************
+////funciot-targil 2
+
+////const funcArr = (array) => {
+
+////    return min = Math.min(...array)
+    
+////}
+
+////let arr = []
+////    for (let i = 0; i <= 3; i++) {
+
+////        switch (true) {
+
+////            case i == 1:
+////                alert("Please enter array 1: ")
+////                arr = [+prompt(), +prompt(), +prompt()]
+////                document.write("Numbers in array 1 is: " + arr + "<br>")
+////                document.write("The min value in array 1 is: " + funcArr(arr) + "<br>" + "<br>")
+
+////                break
+
+////            case i == 2:
+////                alert("Please enter array 2: ")
+////                arr = [+prompt(), +prompt(), +prompt()]
+////                document.write("Numbers in array 2 is: " + arr + "<br>")
+////                document.write("The min value in array 2 is: " + funcArr(arr) + "<br>" + "<br>")
+////                break
+
+////            case i == 3:
+////                alert("Please enter array 3: ")
+////                arr = [+prompt(), +prompt(), +prompt()]
+////                document.write("Numbers in array 3 is: " + arr + "<br>")
+////                document.write("The min value in array 3 is: " + funcArr(arr) + "<br>" + "<br>")
+////                break
+
+////        }
+////    }
+
+
+
+////************************************************************************************
+////funciot-targil 3
+
+
+////const longestString = (arr) => {
+
+////    let arr1 = []
+////    let arr2 = []
+
+////    for (let i = 0; i < arr.length; i++) {
+
+////        arr1.push(arr[i].length)
+////        arr2.push(arr[i])
+
+////    }
+////        document.write("Longest name on the list: ")
+////        return max = Math.max(...arr1) + "<br>" +
+////            "list of names: " + arr2 + "<br>" + "<br>"
+
+////    }
+
+
+////let listNames1 = [prompt(), prompt(), prompt()]
+////document.write(longestString(listNames1))
+
+////let listNames2 = [prompt(), prompt(), prompt()]
+////document.write(longestString(listNames2))
+
+////let listNames3 = [prompt(), prompt(), prompt()]
+////document.write(longestString(listNames3))
+
+////************************************************************************************
+////funciot-targil 4
+
+
+////const longestString = (arr) => {
+
+////    let arr1 = []
+////    let indxN
+
+////    for (let i = 0; i < arr.length; i++) {
+
+////        arr1.push(arr[i].length)
+////    }
+
+
+////    indxN = arr1.indexOf(max = Math.max(...arr1))
+////    return arr[indxN]
+////}
+
+
+////let listNames1 = ["Gabriel", "Avi", "Chen", "Meir"]
+////    document.write("The first list of names is: " + "<br>" + listNames1 + "<br>" +
+////    "The longest name in list is: " + "<br>" +
+////        longestString(listNames1) + "<br>" + "<br>")
+
+////let listNames2 = ["Gabriel", "Alexander", "Shoshi", "Yael"]
+////document.write("The first list of names is: " + "<br>" + listNames2 + "<br>"  +
+////    "The longest name in list is: " + "<br>" +
+////    longestString(listNames2) + "<br>" + "<br>")
+
+////let listNames3 = ["Shemarohmeod", "Avi", "Yossef", "Meir"]
+////document.write("The first list of names is: " + "<br>" + listNames3 + "<br>"+
+////    "The longest name in list is: " + "<br>" +
+////    longestString(listNames3) + "<br>" + "<br>")
+
+
+////************************************************************************************
+////funciot-targil 5
+
+////const numbersArr = (x) => {
+
+////    let sumArr = 0
+////    let avrgArr = 0
+////    let counter = 0
+
+////    for (let i = 0; i < x.length; i++) {
+
+////        sumArr = sumArr + x[i]
+////    }
+ 
+////    avrgArr = Math.floor(sumArr / x.length)
+
+////    for (let i = 0; i < x.length; i++) {
+////        if (x[i] >= avrgArr) {
+////            counter = counter + 1
+////        }
+////    }
+////    document.write("Average of the entire array: " + avrgArr + "<br>")
+////    return counter
+////    }
+
+////let arr1 = [23, 34, 1, 5, 87, 100]
+////document.write("List of 1 array: " + arr1 + "<br>")
+////document.write(" Numbers larger or equal to the mitzvah in an array: " + numbersArr(arr1) + "<br>" + "<br>")
+
+////let arr2 = [2,35, 56,9,399, 45, 1]
+////document.write("List of 2 array: " + arr2 + "<br>")
+////document.write(" Numbers larger or equal to the mitzvah in an array: " + numbersArr(arr2) + "<br>" + "<br>")
+
+////let arr3 = [0,2,4]
+////document.write("List of 3 array: " + arr3 + "<br>")
+////document.write(" Numbers larger or equal to the mitzvah in an array: " + numbersArr(arr3) + "<br>" + "<br>")
+
+
+//////************************************************************************************
+//////funciot-targil 6
+
+////const indexMinNumber = (arr) => {
+
+//////let arr1 = []
+////let indxN
+
+////        for (let i = 0; i < arr.length; i++) {
+
+////        indxN = arr.indexOf(min = Math.min(...arr))
+////}
+
+
+////    return indxN
+////}
+
+////let arr = [2, 35, 56, 9, 399, 45, 1]
+////document.write("List of array I: " + arr + "<br>")
+////document.write("Index of min number in array: " + indexMinNumber(arr) + "<br>" + "<br>")
+
+////let arr2 = [2, 44, 56, 0, 399, 45, 0]
+////document.write("List of array II: " + arr2 + "<br>")
+////document.write("Index of min number in array: " + indexMinNumber(arr2) + "<br>" + "<br>")
+
+////let arr3 = [88, 88, 56, 9, 399, 45, 78]
+////document.write("List of array III: " + arr3 + "<br>")
+////document.write("Index of min number in array: " + indexMinNumber(arr3) + "<br>" + "<br>")
+
+
+//////************************************************************************************
+//////funciot-targil 7
+
+////const primeNumber = (n) => {
+////    if (n===1)
+////  {
+////    return false;
+////  }
+////  else if(n === 2)
+////  {
+////    return true;
+////  }else
+////  {
+////    for(let x = 2; x < n; x++)
+////    {
+////      if(n % x === 0)
+////      {
+////        return false;
+////      }
+////    }
+////    return true;  
+////  }
+////}
+
+
+////document.write(primeNumber(53))
+
+
+//////************************************************************************************
+//////funciot-targil 8
+
+//לא עובד!!!!!.///
+
+//const primeNumber = (n) => {
+//    if (n===1)
+//  {
+//    return false;
+//  }
+//  else if(n === 2)
+//  {
+//    return true;
+//  }else
+//  {
+//    for(let x = 2; x < n; x++)
+//    {
+//      if(n % x === 0)
+//      {
+//        return false;
+//      }
+//    }
+//    return true;  
+//  }
+//}
+
+
+//const primeArr = (x) => {
+//    let counterFalse = 0
+
+//    for (let i = 0; i < x.length; i++) {
+
+//        let y = primeNumber(x[i])
+
+//        if (y = false) {
+//            counterFalse += 1
+//        }
+//        if (counterFalse > 0) {
+//            return "no"
+//        } else {
+//            return "yes"
+//        }
+
+//    }
+
+//    //    if (counterFalse > 0) {
+//    //        return "the number is not prime!"
+//    //    } else if (counterFalse === 0){
+//    //        return "prime!"
+//    //    }
+//    //}
+
+   
+//}
+
+//let arr1 = [3, 3, 3, 8]
+
+//document.write(primeArr(arr1))
+
+
+
+//////************************************************************************************
+//////funciot-targil 10
+
+
+//const randomArr = (x) => {
+
+//    let arrayx = []
+
+//    for (let i = 0; i < x; i++) {
+//        arrayx.push(Math.floor(Math.random() *100))
+//}
+
+//    return arrayx
+//    }
+
+
+//document.write("Array length - 5: " + randomArr(5)+ "<br>")
+//document.write("Array length - 10: " + randomArr(10) + "<br>")
+//document.write("Array length - 7: " + randomArr(7) + "<br>")
